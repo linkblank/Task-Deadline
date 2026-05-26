@@ -1,0 +1,10 @@
+{
+  "id": "task-countdown",
+  "name": "Task-Countdown",
+  "version": "1.2.0",
+  "minAppVersion": "0.15.0",
+  "description": "在实时预览/阅读模式及源码编辑模式下，自动在任务日期旁显示剩余天数",
+  "author": "linkblank",
+  "repo": "linkblank/Task-Countdown",
+  "isDesktopOnly": false
+}

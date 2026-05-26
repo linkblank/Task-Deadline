@@ -1,0 +1,77 @@
+/* 实时预览/阅读模式样式 */
+.task-remaining-days {
+    font-size: 0.85em;
+    margin-left: 6px;
+    padding: 0 4px;
+    border-radius: 12px;
+    background-color: var(--background-modifier-border);
+    color: var(--text-muted);
+    white-space: nowrap;
+    display: inline-block;
+}
+.task-remaining-days.remaining-positive {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: #28a745;
+}
+.task-remaining-days.remaining-zero {
+    background-color: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+    font-weight: 500;
+}
+.task-remaining-days.remaining-negative {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: #dc3545;
+}
+.theme-dark .task-remaining-days.remaining-positive {
+    background-color: rgba(40, 167, 69, 0.25);
+    color: #6feb7c;
+}
+.theme-dark .task-remaining-days.remaining-zero {
+    background-color: rgba(255, 193, 7, 0.25);
+    color: #ffda6a;
+}
+.theme-dark .task-remaining-days.remaining-negative {
+    background-color: rgba(220, 53, 69, 0.25);
+    color: #ff8a92;
+}
+.task-remaining-days:hover {
+    opacity: 0.8;
+    cursor: default;
+}
+
+/* 源码模式 Widget 样式 */
+.task-remaining-days-widget {
+    margin-left: 6px;
+    padding: 0 4px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    white-space: nowrap;
+    display: inline-block;
+    background-color: var(--background-modifier-border);
+    color: var(--text-muted);
+}
+.task-remaining-days-widget.remaining-positive {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: #28a745;
+}
+.task-remaining-days-widget.remaining-zero {
+    background-color: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+    font-weight: 500;
+}
+.task-remaining-days-widget.remaining-negative {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: #dc3545;
+}
+.theme-dark .task-remaining-days-widget.remaining-positive {
+    background-color: rgba(40, 167, 69, 0.25);
+    color: #6feb7c;
+}
+.theme-dark .task-remaining-days-widget.remaining-zero {
+    background-color: rgba(255, 193, 7, 0.25);
+    color: #ffda6a;
+}
+.theme-dark .task-remaining-days-widget.remaining-negative {
+    background-color: rgba(220, 53, 69, 0.25);
+    color: #ff8a92;
+}

@@ -75,3 +75,7 @@
     background-color: rgba(220, 53, 69, 0.25);
     color: #ff8a92;
 }
+.remaining-urgent {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: #dc3545;
+}

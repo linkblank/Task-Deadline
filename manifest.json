@@ -1,6 +1,6 @@
 {
-  "id": "task‑deadline",
-  "name": "Task‑Deadline",
+  "id": "task-deadline",
+  "name": "task-deadline",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "在实时预览/阅读模式及源码编辑模式下，自动在任务日期旁显示剩余天数（支持时分精确倒计时与子任务汇总）。Automatically shows remaining time beside task due dates across all editor modes, with precise h/m countdown and subtask summary support.",

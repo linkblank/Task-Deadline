@@ -1,4 +1,4 @@
-# Task Countdown for Obsidian
+# Task Deadline for Obsidian
 
 
 A lightweight plugin that adds dynamic countdown days to checklist items based on due dates. Perfect for deadline tracking, project planning, and habit management — all inside your Obsidian vault.
@@ -35,21 +35,21 @@ A lightweight plugin that adds dynamic countdown days to checklist items based o
 ### From Obsidian Community Store
 
 1. Open **Settings → Community Plugins** and turn off **Restricted mode** if needed.
-2. Click **Browse** and search for **Task Countdown**.
+2. Click **Browse** and search for **Task Deadline**.
 3. Install the plugin and enable it.
 
 ### Manual Installation
 
 1. Go to your vault’s plugin folder:  
    `<vault-root>/.obsidian/plugins/`
-2. Create a new folder named `task-countdown`.
+2. Create a new folder named `task-deadline`.
 3. Place the following files inside it:  
    - `main.js`  
    - `manifest.json`  
    - `styles.css`  
    - `README.md` (optional)
 4. Restart Obsidian or click the **Refresh** button in **Settings → Community Plugins**.
-5. Find **Task Countdown** in the installed plugins list and enable it.
+5. Find **Task Deadline** in the installed plugins list and enable it.
 
 ---
 
@@ -67,7 +67,7 @@ A lightweight plugin that adds dynamic countdown days to checklist items based o
 
 ## ⚙️ Configuration
 
-Open **Settings → Community Plugins → Task Countdown → Gear icon** to customize:
+Open **Settings → Community Plugins → Task Deadline → Gear icon** to customize:
 
 | Option | Description | Default |
 |--------|-------------|---------|
@@ -98,7 +98,7 @@ Issues and pull requests are welcome! To build the plugin locally:
 
 ```bash
 git clone <repo-url>
-cd task-countdown
+cd task-deadline
 npm install
 npm run build
 

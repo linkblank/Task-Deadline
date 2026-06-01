@@ -20,20 +20,20 @@
 
 ## 📦 安装方法
 ### 自动安装
-1、官方市场搜索 task-countdown
+1、官方市场搜索 Task Deadline
 
 ### 手动安装
 
 1. 进入你的 Obsidian 库的插件目录：  
    `<库路径>/.obsidian/plugins/`
-2. 创建文件夹 `task-countdown`
+2. 创建文件夹 `Task Deadline`
 3. 将以下四个文件放入该文件夹：  
    - `main.js`  
    - `manifest.json`  
    - `styles.css`  
    - `README.md`（可选）
 4. 重启 Obsidian 或打开“设置 → 第三方插件 → 刷新”按钮
-5. 在“已安装插件”列表中找到 **Task-Countdown**，点击启用
+5. 在“已安装插件”列表中找到 **Task Deadline**，点击启用
 
 
 ---
@@ -52,7 +52,7 @@
 
 ## ⚙️ 配置说明
 
-在 Obsidian 设置 → 第三方插件 → task-countdown → 齿轮图标，可调整以下选项：
+在 Obsidian 设置 → 第三方插件 → Task Deadline → 齿轮图标，可调整以下选项：
 
 | 选项 | 描述 | 默认值 |
 |------|------|--------|
@@ -83,6 +83,6 @@
 
 ```bash
 git clone <仓库地址>
-cd task-remaining-days
+cd task-countdown
 npm install
 npm run build
